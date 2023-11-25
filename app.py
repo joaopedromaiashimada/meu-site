@@ -4,5 +4,5 @@ app =Flask(__name__)
 def index():
     return render_template('index.html')
 @app.route('/informacao')
-def informacao():
+def indexinformacao():
     return render_template('informacao.html')
